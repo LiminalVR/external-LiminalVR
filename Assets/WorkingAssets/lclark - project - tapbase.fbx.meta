@@ -5,18 +5,12 @@ ModelImporter:
   fileIDToRecycleName:
     100000: base
     100002: //RootNode
-    100004: screen
     400000: base
     400002: //RootNode
-    400004: screen
     2100000: lambert2
-    2100002: lambert4
     2300000: base
-    2300002: screen
     3300000: base
-    3300002: screen
     4300000: base
-    4300002: screen
   externalObjects: {}
   materials:
     importMaterials: 1
