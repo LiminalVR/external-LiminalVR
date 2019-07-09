@@ -25,4 +25,5 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_1836599C: 8
-    m_Colors: []
+    m_Colors:
+    - Color_83431CAE: {r: 0.3584906, g: 0.3584906, b: 0.3584906, a: 0}
