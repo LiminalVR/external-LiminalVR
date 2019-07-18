@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/WorkingAssets/Scenes/ProjectScene.unity
-    guid: 979ed2418dba2714bad986991a4b53cf
+    path: Assets/VirtualWave - Part 2.unity
+    guid: 568b40b434c8df9499b0796f1bebdd0b
   m_configObjects: {}
