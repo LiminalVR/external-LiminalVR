@@ -57,7 +57,7 @@ Material:
     - _Cutoff: 0.5
     - _DstBlend: 0
     - _GlossMapScale: 1
-    - _Glossiness: 1
+    - _Glossiness: 0.509
     - _GlossyReflections: 1
     - _Metallic: 0
     - _OcclusionStrength: 1
@@ -75,5 +75,5 @@ Material:
     - Color_B4E0EBB6: {r: 0, g: 0, b: 0, a: 0}
     - Vector2_975888EC: {r: 400, g: 400, b: 0, a: 0}
     - _Color: {r: 0, g: 0, b: 0, a: 1}
-    - _EmissionColor: {r: 0, g: 0.1792453, b: 0.15056603, a: 1}
+    - _EmissionColor: {r: 0.004405481, g: 0.103773594, b: 0.08649219, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
