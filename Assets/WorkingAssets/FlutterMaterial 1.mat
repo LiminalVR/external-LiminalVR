@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: FlutterMaterial PART 3
+  m_Name: FlutterMaterial 1
   m_Shader: {fileID: 4800000, guid: b8e55bbe4a153a74a866f489e42dc75c, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -19,6 +19,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2DArray_C1FB295B:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - Texture2D_940186F7:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -56,10 +60,14 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_22D86A5C: 0
+    - Vector1_16B46520: 0.8977
+    - Vector1_22CAE348: 0.88
+    - Vector1_22D86A5C: -0.1
     - Vector1_557BBEF6: 1.5
-    - Vector1_981E5023: 0.15
-    - Vector1_9C22E67E: 32.08
+    - Vector1_658CB6CE: 0.5
+    - Vector1_8F9272ED: 100
+    - Vector1_981E5023: 0.1
+    - Vector1_9C22E67E: 0
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -79,11 +87,12 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_6B73F333: {r: 0.000303527, g: 0.5149178, b: 0.023153365, a: 0}
-    - Vector2_3A7147E0: {r: 100, g: 2, b: 0, a: 0}
+    - Color_6B73F333: {r: 0.005676511, g: 0.4339623, b: 0.0020469967, a: 0}
+    - Vector2_3A7147E0: {r: 400, g: 12, b: 0, a: 0}
+    - Vector3_29123D8B: {r: 0.5, g: 0.5, b: 0, a: 0}
     - Vector3_D9D9F217: {r: 0.5, g: 0.5, b: 0, a: 0}
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Smoothness: {r: 1, g: 1, b: 0, a: 0}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-    - _Vector2_82454D57: {r: 100, g: 2, b: 0, a: 0}
+    - _Vector2_82454D57: {r: 20, g: 2, b: 0, a: 0}
