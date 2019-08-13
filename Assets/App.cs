@@ -9,6 +9,7 @@ public class App : MonoBehaviour
 {
     public PlayableDirector Director;
     public float EndingTime = 196;
+    public float FadeRate;
 
     private IEnumerator Start()
     {
@@ -19,8 +20,22 @@ public class App : MonoBehaviour
     {
         yield return new WaitUntil(() => Director.time >= EndingTime);
 
-        ScreenFader.Instance.FadeToBlack(3);
-        yield return ScreenFader.Instance.WaitUntilFadeComplete();
+        var fadeTime = 3f;
+        ScreenFader.Instance.FadeToBlack(fadeTime);
+
+        while(AudioListener.volume > 0)
+        {
+            AudioListener.volume -= Time.deltaTime * FadeRate;
+            yield return new WaitForEndOfFrame();
+        }
+
+        var elapsedTime = 1f/FadeRate;
+
+        while (elapsedTime < fadeTime)
+        {
+            elapsedTime += Time.deltaTime;
+            yield return new WaitForEndOfFrame();
+        }
 
         End();
     }
