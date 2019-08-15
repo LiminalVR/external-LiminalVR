@@ -7,11 +7,11 @@ public class ScreenFade : MonoBehaviour
 {
     public void OnEnable()
     {
-        ScreenFader.Instance.FadeToBlack(2f);
+        ScreenFader.Instance.FadeToBlack(5f);
     }
 
     public void OnDisable()
     {
-        ScreenFader.Instance.FadeToClear(2f);
+        ScreenFader.Instance.FadeToClear(5f);
     }
 }

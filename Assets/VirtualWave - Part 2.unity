@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2137435484}
-  m_IndirectSpecularColor: {r: 0.024045378, g: 0.071751334, b: 0.048269235, a: 1}
+  m_IndirectSpecularColor: {r: 0.213813, g: 0.23186588, b: 0.2890929, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,6 +123,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: lclark - calm project - hill06
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d874d9b523c00624780649ecad0a3636, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d874d9b523c00624780649ecad0a3636, type: 3}
       propertyPath: m_LocalPosition.x
       value: -484.80988
@@ -196,6 +200,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: lclark - calm project - hill01 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5f68944067b160d4ca4536bee9ec04bf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5f68944067b160d4ca4536bee9ec04bf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -839
@@ -268,6 +276,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: dd3fb43a2a5769d49ab28c9cbbb5e431, type: 3}
       propertyPath: m_Name
       value: lclark - calm project - hill05 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dd3fb43a2a5769d49ab28c9cbbb5e431, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dd3fb43a2a5769d49ab28c9cbbb5e431, type: 3}
       propertyPath: m_LocalPosition.x
@@ -556,6 +568,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: lclark - calm project - hill02 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 82f83a6e1b356f94280007278958f2a9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 82f83a6e1b356f94280007278958f2a9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -350.18234
@@ -628,6 +644,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 3adbff90828327046a43b168be8dc35f, type: 3}
       propertyPath: m_Name
       value: lclark - calm project - hill03 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3adbff90828327046a43b168be8dc35f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3adbff90828327046a43b168be8dc35f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -772,6 +792,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: animated hills right
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 109c4ca30a571d348b8be8a02b9c1b1c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 109c4ca30a571d348b8be8a02b9c1b1c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 109c4ca30a571d348b8be8a02b9c1b1c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 28.16
@@ -782,7 +810,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 109c4ca30a571d348b8be8a02b9c1b1c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -317
+      value: -1245.997
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 109c4ca30a571d348b8be8a02b9c1b1c, type: 3}
       propertyPath: m_LocalRotation.x
@@ -832,6 +860,30 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 4ecb41e0057cc864dbcc17fcb8054d0e, type: 2}
+    - target: {fileID: 2300000, guid: 109c4ca30a571d348b8be8a02b9c1b1c, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 109c4ca30a571d348b8be8a02b9c1b1c, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 109c4ca30a571d348b8be8a02b9c1b1c, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 109c4ca30a571d348b8be8a02b9c1b1c, type: 3}
+      propertyPath: m_LightmapParameters
+      value: 
+      objectReference: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 2300000, guid: 109c4ca30a571d348b8be8a02b9c1b1c, type: 3}
+      propertyPath: m_RenderingLayerMask
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 109c4ca30a571d348b8be8a02b9c1b1c, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 109c4ca30a571d348b8be8a02b9c1b1c, type: 3}
 --- !u!1 &221521037 stripped
@@ -894,6 +946,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 82f83a6e1b356f94280007278958f2a9, type: 3}
       propertyPath: m_Name
       value: lclark - calm project - hill02 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 82f83a6e1b356f94280007278958f2a9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 82f83a6e1b356f94280007278958f2a9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -967,6 +1023,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 5f68944067b160d4ca4536bee9ec04bf, type: 3}
       propertyPath: m_Name
       value: lclark - calm project - hill01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5f68944067b160d4ca4536bee9ec04bf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5f68944067b160d4ca4536bee9ec04bf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1145,6 +1205,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: lclark - calm project - hill05 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dd3fb43a2a5769d49ab28c9cbbb5e431, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dd3fb43a2a5769d49ab28c9cbbb5e431, type: 3}
       propertyPath: m_LocalPosition.x
       value: 321
@@ -1217,6 +1281,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 5f68944067b160d4ca4536bee9ec04bf, type: 3}
       propertyPath: m_Name
       value: lclark - calm project - hill01 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5f68944067b160d4ca4536bee9ec04bf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5f68944067b160d4ca4536bee9ec04bf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1499,6 +1567,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: lclark - calm project - hill01 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5f68944067b160d4ca4536bee9ec04bf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5f68944067b160d4ca4536bee9ec04bf, type: 3}
       propertyPath: m_LocalPosition.x
       value: 427
@@ -1571,6 +1643,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0ade8dcb01296a2428010aeac118f839, type: 3}
       propertyPath: m_Name
       value: lclark - calm project - hill08
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0ade8dcb01296a2428010aeac118f839, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0ade8dcb01296a2428010aeac118f839, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1736,6 +1812,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: dd3fb43a2a5769d49ab28c9cbbb5e431, type: 3}
       propertyPath: m_Name
       value: lclark - calm project - hill05 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dd3fb43a2a5769d49ab28c9cbbb5e431, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dd3fb43a2a5769d49ab28c9cbbb5e431, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6688,6 +6768,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: lclark - calm project - hill02 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 82f83a6e1b356f94280007278958f2a9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 82f83a6e1b356f94280007278958f2a9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -156
@@ -6760,6 +6844,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 3adbff90828327046a43b168be8dc35f, type: 3}
       propertyPath: m_Name
       value: lclark - calm project - hill03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3adbff90828327046a43b168be8dc35f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3adbff90828327046a43b168be8dc35f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6834,6 +6922,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: lclark - calm project - hill01 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5f68944067b160d4ca4536bee9ec04bf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5f68944067b160d4ca4536bee9ec04bf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -297
@@ -6907,6 +6999,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: lclark - calm project - hill03 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3adbff90828327046a43b168be8dc35f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3adbff90828327046a43b168be8dc35f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -509.15057
@@ -6975,6 +7071,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 989643831}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &747198315 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1260162970322627868, guid: 22276a8657744e04cba8ad0a2caf4195,
+    type: 3}
+  m_PrefabInstance: {fileID: 1952459490}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1903785820, guid: 1661fa78af9aece459a3302206a05902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &859238586
 GameObject:
   m_ObjectHideFlags: 0
@@ -7098,7 +7206,7 @@ ParticleSystem:
   startDelay:
     serializedVersion: 2
     minMaxState: 0
-    scalar: 50
+    scalar: 35
     minScalar: 0
     maxCurve:
       serializedVersion: 2
@@ -11789,6 +11897,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: lclark - calm project - hill02 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 82f83a6e1b356f94280007278958f2a9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 82f83a6e1b356f94280007278958f2a9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 550
@@ -11862,6 +11974,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: sun
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f821e5a2a0b16344aa7c7e01212493ef, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f821e5a2a0b16344aa7c7e01212493ef, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -11934,6 +12050,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c8722593791e45f4db5e685b689d2cb0, type: 3}
       propertyPath: m_Name
       value: lclark - calm project - hill04
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c8722593791e45f4db5e685b689d2cb0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c8722593791e45f4db5e685b689d2cb0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16802,6 +16922,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: hill01
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5f68944067b160d4ca4536bee9ec04bf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5f68944067b160d4ca4536bee9ec04bf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5f68944067b160d4ca4536bee9ec04bf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6
@@ -16862,6 +16990,22 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: cf4e8d9fb5966e7479562d41e4549857, type: 2}
+    - target: {fileID: 2300000, guid: 5f68944067b160d4ca4536bee9ec04bf, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 5f68944067b160d4ca4536bee9ec04bf, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 5f68944067b160d4ca4536bee9ec04bf, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 5f68944067b160d4ca4536bee9ec04bf, type: 3}
+      propertyPath: m_LightmapParameters
+      value: 
+      objectReference: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f68944067b160d4ca4536bee9ec04bf, type: 3}
 --- !u!1001 &990007730
@@ -16874,6 +17018,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 5f68944067b160d4ca4536bee9ec04bf, type: 3}
       propertyPath: m_Name
       value: lclark - calm project - hill01 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5f68944067b160d4ca4536bee9ec04bf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5f68944067b160d4ca4536bee9ec04bf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16947,6 +17095,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 5f68944067b160d4ca4536bee9ec04bf, type: 3}
       propertyPath: m_Name
       value: lclark - calm project - hill01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5f68944067b160d4ca4536bee9ec04bf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5f68944067b160d4ca4536bee9ec04bf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21824,6 +21976,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: animated hills left
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 109c4ca30a571d348b8be8a02b9c1b1c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 109c4ca30a571d348b8be8a02b9c1b1c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 109c4ca30a571d348b8be8a02b9c1b1c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -28.17004
@@ -21884,6 +22044,30 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 4ecb41e0057cc864dbcc17fcb8054d0e, type: 2}
+    - target: {fileID: 2300000, guid: 109c4ca30a571d348b8be8a02b9c1b1c, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 109c4ca30a571d348b8be8a02b9c1b1c, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 109c4ca30a571d348b8be8a02b9c1b1c, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 109c4ca30a571d348b8be8a02b9c1b1c, type: 3}
+      propertyPath: m_LightmapParameters
+      value: 
+      objectReference: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 2300000, guid: 109c4ca30a571d348b8be8a02b9c1b1c, type: 3}
+      propertyPath: m_RenderingLayerMask
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 109c4ca30a571d348b8be8a02b9c1b1c, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 109c4ca30a571d348b8be8a02b9c1b1c, type: 3}
 --- !u!1 &1072440262 stripped
@@ -21921,6 +22105,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 82f83a6e1b356f94280007278958f2a9, type: 3}
       propertyPath: m_Name
       value: lclark - calm project - hill02 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 82f83a6e1b356f94280007278958f2a9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 82f83a6e1b356f94280007278958f2a9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21995,6 +22183,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: lclark - calm project - hill02 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 82f83a6e1b356f94280007278958f2a9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 82f83a6e1b356f94280007278958f2a9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 383.7638
@@ -22068,6 +22260,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: lclark - calm project - hill03 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3adbff90828327046a43b168be8dc35f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3adbff90828327046a43b168be8dc35f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -68.86467
@@ -22140,6 +22336,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 82f83a6e1b356f94280007278958f2a9, type: 3}
       propertyPath: m_Name
       value: lclark - calm project - hill02 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 82f83a6e1b356f94280007278958f2a9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 82f83a6e1b356f94280007278958f2a9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22535,6 +22735,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: lclark - calm project - hill03 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3adbff90828327046a43b168be8dc35f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3adbff90828327046a43b168be8dc35f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -156.96492
@@ -22607,6 +22811,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 3adbff90828327046a43b168be8dc35f, type: 3}
       propertyPath: m_Name
       value: lclark - calm project - hill03
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3adbff90828327046a43b168be8dc35f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3adbff90828327046a43b168be8dc35f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22681,6 +22889,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: lclark - calm project - hill07
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 67b0825ed3f81844a9ed8f65c6441da8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 67b0825ed3f81844a9ed8f65c6441da8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -692
@@ -22753,6 +22965,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 3adbff90828327046a43b168be8dc35f, type: 3}
       propertyPath: m_Name
       value: lclark - calm project - hill03 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3adbff90828327046a43b168be8dc35f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3adbff90828327046a43b168be8dc35f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27646,6 +27862,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: lclark - calm project - hill05
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dd3fb43a2a5769d49ab28c9cbbb5e431, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dd3fb43a2a5769d49ab28c9cbbb5e431, type: 3}
       propertyPath: m_LocalPosition.x
       value: -278.2374
@@ -27935,7 +28155,7 @@ ParticleSystem:
   startDelay:
     serializedVersion: 2
     minMaxState: 0
-    scalar: 50
+    scalar: 35
     minScalar: 0
     maxCurve:
       serializedVersion: 2
@@ -32625,6 +32845,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 5f68944067b160d4ca4536bee9ec04bf, type: 3}
       propertyPath: m_Name
       value: lclark - calm project - hill01 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5f68944067b160d4ca4536bee9ec04bf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5f68944067b160d4ca4536bee9ec04bf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -37493,6 +37717,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: lclark - calm project - hill02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 82f83a6e1b356f94280007278958f2a9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 82f83a6e1b356f94280007278958f2a9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -204.7846
@@ -37691,6 +37919,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_PointerVisual
       value: 
+      objectReference: {fileID: 747198315}
+    - target: {fileID: 1260162969412560869, guid: 22276a8657744e04cba8ad0a2caf4195,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1260162969572976434, guid: 22276a8657744e04cba8ad0a2caf4195,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22276a8657744e04cba8ad0a2caf4195, type: 3}
@@ -37764,6 +38002,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: lclark - calm project - hill01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5f68944067b160d4ca4536bee9ec04bf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5f68944067b160d4ca4536bee9ec04bf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -391.75534
@@ -37836,6 +38078,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 3adbff90828327046a43b168be8dc35f, type: 3}
       propertyPath: m_Name
       value: lclark - calm project - hill03 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3adbff90828327046a43b168be8dc35f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3adbff90828327046a43b168be8dc35f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -42712,6 +42958,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 3adbff90828327046a43b168be8dc35f, type: 3}
       propertyPath: m_Name
       value: lclark - calm project - hill03 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3adbff90828327046a43b168be8dc35f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3adbff90828327046a43b168be8dc35f, type: 3}
       propertyPath: m_LocalPosition.x
