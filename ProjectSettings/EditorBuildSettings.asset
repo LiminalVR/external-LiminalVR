@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/VirtualWave - Part 2.unity
     guid: 568b40b434c8df9499b0796f1bebdd0b
+  - enabled: 0
+    path: Assets/test.unity
+    guid: e7ad800edacfabe419b7b4feab004a7d
   m_configObjects: {}

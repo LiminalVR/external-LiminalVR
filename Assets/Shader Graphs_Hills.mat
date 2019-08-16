@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_Hills
+  m_Shader: {fileID: -6465566751694194690, guid: 949e1a9beb8951a40bb199a4b556424d,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_896C6877:
+        m_Texture: {fileID: 2800000, guid: 53aba09e15a2ecf4b82cf7ee9cab7656, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_C7AE0057:
+        m_Texture: {fileID: 2800000, guid: 074f70b56669d154392682ffd087c74e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 53aba09e15a2ecf4b82cf7ee9cab7656, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_21926E9F_Out:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_857D2427_Out:
+        m_Texture: {fileID: 2800000, guid: 7ab8a8bf393b4024b84da263c771235e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_17A8464A: 2
+    - Vector1_45E38B18: 12.33
+    - Vector1_6DD8BF88: 37.3
+    - Vector1_9D81D0C9: -49.6
+    - Vector1_CB514B74: 0.5
+    - Vector1_D9DE3311: 5
+    - Vector1_F84AD162: 0.9
+    - _NoiseHorizDelta: 0
+    - _NoiseVertDelta: 0.1
+    - _WaveScale: 0.1
+    - _WaveSpeed: 1
+    - _XRotate: 0
+    - _ZRotate: 0.1
+    m_Colors:
+    - Color_FCEEF03F: {r: 0, g: 0.9335952, b: 1, a: 1}
+    - Vector2_2ACEBF5F: {r: 1, g: 0.05, b: 0, a: 0}
+    - Vector2_2C3413BA: {r: 400, g: 6, b: 0, a: 0}
+    - Vector2_4C375BF1: {r: 11.65, g: 0.5, b: 0, a: 0}
+    - Vector2_6239207B: {r: 0.01, g: 0, b: 0, a: 0}
+    - Vector2_6691B1CC: {r: 1, g: 0, b: 0, a: 0}
+    - Vector2_DC5E599C: {r: 0, g: 0, b: 0, a: 0}
+    - _GradientScale: {r: 0.01, g: 0, b: 0, a: 0}
+    - _GradientSpeed: {r: 0, g: 0.1, b: 0, a: 0}
+    - _NoiseOffset: {r: 50, g: 1, b: 0, a: 0}
+    - _NoiseTiling: {r: 0, g: 0, b: 0, a: 0}
+    - _WaveSpeed: {r: 0, g: 0, b: 0, a: 0}
