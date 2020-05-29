@@ -9,7 +9,7 @@ public class App : MonoBehaviour
 {
     public PlayableDirector Director;
     public float EndingTime = 196;
-    public float FadeRate;
+    public float FadeTime;
 
     private IEnumerator Start()
     {
@@ -20,20 +20,14 @@ public class App : MonoBehaviour
     {
         yield return new WaitUntil(() => Director.time >= EndingTime);
 
-        var fadeTime = 3f;
-        ScreenFader.Instance.FadeToBlack(fadeTime);
+        var elapsedTime = 0f;
+        var startingVolume = AudioListener.volume;
+        ScreenFader.Instance.FadeToBlack(FadeTime);
 
-        while(AudioListener.volume > 0)
-        {
-            AudioListener.volume -= Time.deltaTime * FadeRate;
-            yield return new WaitForEndOfFrame();
-        }
-
-        var elapsedTime = 1f/FadeRate;
-
-        while (elapsedTime < fadeTime)
+        while (elapsedTime < FadeTime)
         {
             elapsedTime += Time.deltaTime;
+            AudioListener.volume = Mathf.Lerp(startingVolume, 0f, elapsedTime / FadeTime);
             yield return new WaitForEndOfFrame();
         }
 
